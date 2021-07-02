@@ -1,2 +1,2 @@
 const document = document.getElementById('row');
-const object  = document.getElementById('if');   
+const object  = document.getElementById('if');
