@@ -39,10 +39,10 @@ function populateUI() {
     if(selectedSeats !== null && selectedSeats.length > 0) {
         seats.forEach( (seat, index) => {
             if(selectedSeats.indexOf(index) > -1) {
-                seat.classList.add('selected');
+                seat.classList.add('selected');   
             }
         })
-    }
+    }    
     const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
 
     if(selectedMovieIndex !== null) {
