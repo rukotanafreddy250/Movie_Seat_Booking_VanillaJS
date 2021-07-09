@@ -48,9 +48,9 @@ function populateUI() {
     if(selectedMovieIndex !== null) {
         movieSelect.selectedIndex = selectedMovieIndex;
     }
-}
+}   
 
-
+   
 // Movie oku
 movieSelect.addEventListener('change', e => {
     tickectPrice = +e.target.value;
