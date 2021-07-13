@@ -5,6 +5,7 @@ const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
 populateUI();
+updateSelectedCount();
 
 let tickectPrice = +movieSelect.value;
 console.log(tickectPrice);
