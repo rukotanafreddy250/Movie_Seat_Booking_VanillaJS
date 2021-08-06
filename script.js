@@ -13,13 +13,13 @@ console.log(tickectPrice);
 function setMoviesData(movieIndex, moviePrice) {
     localStorage.setItem('selectedMovieIndex', movieIndex);
     localStorage.setItem('selectedMoviePrice', moviePrice);
-}
+}    
 
 // update total and count
 function updateSelectedCount() {
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
     console.log();  
-    // copy total and count
+    // copy total and count   
     const seatsIndex = [...selectedSeats].map(function(seat){
         return [...seats].indexOf(seat);
     });
