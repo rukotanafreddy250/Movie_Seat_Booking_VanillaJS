@@ -30,9 +30,9 @@ body {
   border: 0;
   border-radius: 5px;
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: 10px;   
   padding: 5px 15px 5px 15px;
-  -moz-appearance: none;
+  -moz-appearance: none;    
   -webkit-appearance: none;
   appearance: none;
 }

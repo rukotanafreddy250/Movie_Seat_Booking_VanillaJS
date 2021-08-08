@@ -15,8 +15,8 @@ function setMoviesData(movieIndex, moviePrice) {
     localStorage.setItem('selectedMoviePrice', moviePrice);
 }    
 
-// update total and count
-function updateSelectedCount() {
+// update total and count   
+function updateSelectedCount() {  
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
     console.log();  
     // copy total and count   
